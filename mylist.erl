@@ -4,4 +4,4 @@
 -compile(export_all).
 
 sayHi() -> 
-    io:format("Hello world!").
+    io:format("Hello world!~n").
