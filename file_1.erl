@@ -1,6 +1,5 @@
 -module(file_1).
--compile(export_all).
-
+-export([range/2]).
 
 range(X, Y) ->
     lists:seq(X, Y).
